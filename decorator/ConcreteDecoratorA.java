@@ -1,5 +1,6 @@
 class ConcreteDecoratorA extends Decorator {
     
+    @Override
     void operation() {
         super.operation();
         addedBehaviour();
@@ -8,5 +9,5 @@ class ConcreteDecoratorA extends Decorator {
     void addedBehaviour() {
         System.out.prinln("Added behaviour from Decorator A");
     }
-    
+
 }

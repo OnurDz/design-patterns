@@ -1,4 +1,5 @@
 abstract class Context {
+
     State state;
 
     Context(State state_) {
@@ -8,4 +9,5 @@ abstract class Context {
     void Request() {
         System.out.println("Request");
     }
+    
 }

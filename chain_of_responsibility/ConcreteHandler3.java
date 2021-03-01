@@ -4,6 +4,7 @@ class ConcreteHandler3 extends Handler {
         super(sucessor);
     }
 
+    @Override
     void handleRequest() {
         System.out.println("Handle request by Concrete Handler 3");
         System.out.println("End of chain");

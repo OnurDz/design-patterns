@@ -18,4 +18,5 @@ class Subject {
     void notify_() {
         System.out.println("Notification by the Subject");
     }
+    
 }

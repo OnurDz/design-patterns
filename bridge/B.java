@@ -5,7 +5,7 @@ class B extends Implementor {
         System.out.println("Operation B");
     }
     
-    void anotherOperationB() {
+    void addedOperationB() {
         System.out.println("Operation unique to B");
     }
     

@@ -9,4 +9,5 @@ class Context {
     void ContextInterface() {
         strat.algorithmInterface();
     }
+    
 }

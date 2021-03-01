@@ -1,5 +1,6 @@
 class ConcreteDecoratorB extends Decorator {
     
+    @Override
     void operation() {
         super.operation();
         addedBehaviour();

@@ -1,4 +1,5 @@
 abstract class Decorator {
+    
     Component component;
 
     Decorator(Component component_) {

@@ -14,4 +14,5 @@ class ChangeManagerB extends ChangeManager {
     void notify_() {
         System.out.println("Notification by ChangeManager B");
     }
+    
 }
