@@ -1,7 +1,13 @@
-class Observer {
+abstract class Observer {
 
-    void update(Subject s) {
+    Subject subject;
+
+    Observer(Subject subject_) {
+        subject = subject_;
+    }
+
+    void update() {
         System.out.println("Update on Subject " + s);
     }
-    
+
 }

@@ -1,6 +1,4 @@
-class Subject {
-
-    ChangeManager chman;
+abstract class Subject {
 
     Subject(ChangeManager chman_) {
         chman = chman_;
@@ -16,7 +14,7 @@ class Subject {
     }
 
     void notify_() {
-        System.out.println("Notification by the Subject");
+        System.out.println("Notification by the Subject to Observers");
     }
-    
+
 }
