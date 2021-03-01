@@ -1,5 +1,3 @@
-import org.graalvm.compiler.graph.Node.Successor;
-
 class ConcreteHandler1 extends Handler {
 
     ConcreteHandler1(Handle successor) {
