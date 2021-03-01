@@ -1,9 +1,5 @@
 abstract class Subject {
 
-    Subject(ChangeManager chman_) {
-        chman = chman_;
-    }
-
     void attach(Observer o) {
         chman.register(this, o);
         System.out.println("Observer " + o + " is attached.");
